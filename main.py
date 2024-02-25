@@ -14,7 +14,7 @@ import urllib.request
 
 
 client = OpenAI() # the OPENAI_API_KEY environment variable has to be set
-generation_prompt = "A turned over ink bottle. The ink is spilling from it and the puddle has the shape of a cat."
+generation_prompt = "An overturned ink bottle. The ink is spilling from it and the puddle has the shape of a cat."
 
 # images can only be drawn on the display if their 
 # resolution exactly matches the size of the display
