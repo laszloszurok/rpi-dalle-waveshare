@@ -14,6 +14,12 @@ The display model that I'm using in this script has a 7.5 inch diameter and a 64
 python -m venv venv
 ```
 
+## Activate the venv
+
+```sh
+source venv/bin/activate
+```
+
 ## Install requirements
 
 ```sh
