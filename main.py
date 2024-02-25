@@ -65,6 +65,7 @@ def convert_image(filename):
                     palette.sequence.append(white)
                 palette.concat()
                 img.remap(affinity=palette, method='floyd_steinberg')
+                #img.save(filename="final.png")
                 
                 print("generating red and black bitmaps")
                 red = img.clone()
