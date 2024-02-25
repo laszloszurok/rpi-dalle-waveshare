@@ -8,6 +8,13 @@ The display model that I'm using in this script has a 7.5 inch diameter and a 64
 
 # Usage
 
+## Clone the repo
+
+```sh
+git clone https://github.com/laszloszurok/rpi-dalle-waveshare.git
+cd rpi-dalle-waveshare
+```
+
 ## Create a virtual environment
 
 ```sh
