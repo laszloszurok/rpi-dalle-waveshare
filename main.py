@@ -13,7 +13,7 @@ import time
 import urllib.request
 
 
-client = OpenAI()
+client = OpenAI() # the OPENAI_API_KEY environment variable has to be set
 generation_prompt = "A turned over ink bottle. The ink is spilling from it and the puddle has the shape of a cat."
 
 # images can only be drawn on the display if their 
