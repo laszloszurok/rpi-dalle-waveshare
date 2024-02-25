@@ -21,6 +21,10 @@ generation_prompt = "A turned over ink bottle. The ink is spilling from it and t
 display_width = 640
 display_height = 384
 
+if not os.path.isdir("img"):
+    os.makedirs("img")
+
+
 def dalle_img():
     print("generating the image with dall-e")
     response = client.images.generate(
