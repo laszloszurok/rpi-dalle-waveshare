@@ -1,0 +1,7 @@
+gpiozero
+lgpio
+RPi.GPIO
+wand
+pillow
+spidev
+openai
