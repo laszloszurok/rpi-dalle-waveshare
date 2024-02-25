@@ -6,8 +6,6 @@ The contents of the `waveshare_epd` directory were copied from here: https://git
 
 The display model that I'm using in this script has a 7.5 inch diameter and a 640x384 resolution. To initialize and use the display I had to import the code from `waveshare_epd/epd7in5bc`. Edit `main.py` with the correct import and resolution settings if you have a different model.
 
-Check out the `img` directory for an example image.
-
 # Usage
 
 ## Create a virtual environment
