@@ -7,17 +7,13 @@ from openai import OpenAI
 from PIL import Image, ImageDraw, ImageFont
 from wand.image import Image as WandImage
 
+import os
 import io
 import time
 import urllib.request
 
 
-api_key = ""
-if (api_key == ""):
-    print("Please provide a valid OpenAI API key.")
-    exit()
-
-client = OpenAI(api_key=api_key)
+client = OpenAI()
 generation_prompt = "A turned over ink bottle. The ink is spilling from it and the puddle has the shape of a cat."
 
 # images can only be drawn on the display if their 
